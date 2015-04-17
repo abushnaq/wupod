@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'wupod', :exclusive => true do
+  pod "wupod", :path => "../"
+
+  
+end
