@@ -1,0 +1,14 @@
+PODS:
+  - wupod (0.1.0)
+
+DEPENDENCIES:
+  - wupod (from `../`)
+
+EXTERNAL SOURCES:
+  wupod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  wupod: e14ba59b5f1ac59f12d1e6c38eae87b0b8e72fdd
+
+COCOAPODS: 0.36.0

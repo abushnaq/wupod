@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F9DC2188869988F5D3CA49C /* Pods-wupod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE51D46AE05077A04658E55 /* Pods-wupod-dummy.m */; };
+		D56725769D2E1BD760120198 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464AE4A6321A63CA81EDACB3 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B032D3B485983D5F9F2774D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B696B5084EF2F09F5AD35B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA92300F9ADDFC44B67ABC6;
+			remoteInfo = "Pods-wupod-wupod-wupod";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D416A4848519FBE6C61F3D /* Pods-wupod-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-wupod-environment.h"; sourceTree = "<group>"; };
+		2E849BAB3BE0EF38EDB084AB /* Pods-wupod-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-wupod-acknowledgements.markdown"; sourceTree = "<group>"; };
+		464AE4A6321A63CA81EDACB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5FE51D46AE05077A04658E55 /* Pods-wupod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-wupod-dummy.m"; sourceTree = "<group>"; };
+		80748AC66362C058BFA0B4C8 /* Pods-wupod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wupod.release.xcconfig"; sourceTree = "<group>"; };
+		91C414DD6E132A8E6E552EF3 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E771810EB54B8D889E27AD4C /* Pods-wupod-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-wupod-resources.sh"; sourceTree = "<group>"; };
+		F0E51637A16B024B8F64AFBE /* wupod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wupod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F634AFB0BC0BAC6A2B64DB16 /* Pods-wupod-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-wupod-acknowledgements.plist"; sourceTree = "<group>"; };
+		F89A1690049D928EEF164C9B /* Pods-wupod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-wupod.debug.xcconfig"; sourceTree = "<group>"; };
+		FBB879B9038BAC94619A7AFA /* libPods-wupod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wupod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		085D6158D65C134A2E7B25CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D994F0D449B21539CE8B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56725769D2E1BD760120198 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0695530FE1523808EECF0129 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A216381E73C4F0F1D2DFF217 /* Pods-wupod */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6D2490D570E171A8BA27C2E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				464AE4A6321A63CA81EDACB3 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		724FFEA3B9F9440950588D11 /* wupod */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = wupod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		72DDCB6C86BFFCADB8A0ED08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D2490D570E171A8BA27C2E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		770DF9A3A283931061FE5B7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBB879B9038BAC94619A7AFA /* libPods-wupod.a */,
+				F0E51637A16B024B8F64AFBE /* wupod.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A216381E73C4F0F1D2DFF217 /* Pods-wupod */ = {
+			isa = PBXGroup;
+			children = (
+				2E849BAB3BE0EF38EDB084AB /* Pods-wupod-acknowledgements.markdown */,
+				F634AFB0BC0BAC6A2B64DB16 /* Pods-wupod-acknowledgements.plist */,
+				5FE51D46AE05077A04658E55 /* Pods-wupod-dummy.m */,
+				00D416A4848519FBE6C61F3D /* Pods-wupod-environment.h */,
+				E771810EB54B8D889E27AD4C /* Pods-wupod-resources.sh */,
+				F89A1690049D928EEF164C9B /* Pods-wupod.debug.xcconfig */,
+				80748AC66362C058BFA0B4C8 /* Pods-wupod.release.xcconfig */,
+			);
+			name = "Pods-wupod";
+			path = "Target Support Files/Pods-wupod";
+			sourceTree = "<group>";
+		};
+		E9A75E3D43DB011B8F0CCB20 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				724FFEA3B9F9440950588D11 /* wupod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F2A691A951899A7A81DD16A3 = {
+			isa = PBXGroup;
+			children = (
+				91C414DD6E132A8E6E552EF3 /* Podfile */,
+				E9A75E3D43DB011B8F0CCB20 /* Development Pods */,
+				72DDCB6C86BFFCADB8A0ED08 /* Frameworks */,
+				770DF9A3A283931061FE5B7B /* Products */,
+				0695530FE1523808EECF0129 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E364D68F135323029951BA4 /* Pods-wupod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02ED96C32C2FF2669811DD92 /* Build configuration list for PBXNativeTarget "Pods-wupod" */;
+			buildPhases = (
+				03CC40D177E9FE74FD8718D4 /* Sources */,
+				43D994F0D449B21539CE8B15 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFB3E5C1D36A320DF0B304A4 /* PBXTargetDependency */,
+			);
+			name = "Pods-wupod";
+			productName = "Pods-wupod";
+			productReference = FBB879B9038BAC94619A7AFA /* libPods-wupod.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ACA92300F9ADDFC44B67ABC6 /* Pods-wupod-wupod-wupod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA54DA335FA223C5F839D8E /* Build configuration list for PBXNativeTarget "Pods-wupod-wupod-wupod" */;
+			buildPhases = (
+				68F1AA624EB9DD1316E0B404 /* Sources */,
+				085D6158D65C134A2E7B25CD /* Frameworks */,
+				208883F7031D8C6EC1173CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-wupod-wupod-wupod";
+			productName = "Pods-wupod-wupod-wupod";
+			productReference = F0E51637A16B024B8F64AFBE /* wupod.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B696B5084EF2F09F5AD35B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = A69DD8CCBCDE9FA6FD2A51E1 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2A691A951899A7A81DD16A3;
+			productRefGroup = 770DF9A3A283931061FE5B7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E364D68F135323029951BA4 /* Pods-wupod */,
+				ACA92300F9ADDFC44B67ABC6 /* Pods-wupod-wupod-wupod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		208883F7031D8C6EC1173CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03CC40D177E9FE74FD8718D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9DC2188869988F5D3CA49C /* Pods-wupod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F1AA624EB9DD1316E0B404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFB3E5C1D36A320DF0B304A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-wupod-wupod-wupod";
+			target = ACA92300F9ADDFC44B67ABC6 /* Pods-wupod-wupod-wupod */;
+			targetProxy = 0B032D3B485983D5F9F2774D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		301869D3481A070BD965AB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80748AC66362C058BFA0B4C8 /* Pods-wupod.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		30458763C82D58A7933D4255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		64DC9E505AB0B4DDB2FEBE8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A6CE46F4A381E33FC2F6AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F89A1690049D928EEF164C9B /* Pods-wupod.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CA669F4DC22ECD6F4AE51258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = wupod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FAD8C763E79E51D178C7F25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = wupod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02ED96C32C2FF2669811DD92 /* Build configuration list for PBXNativeTarget "Pods-wupod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6CE46F4A381E33FC2F6AE9 /* Debug */,
+				301869D3481A070BD965AB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69DD8CCBCDE9FA6FD2A51E1 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30458763C82D58A7933D4255 /* Debug */,
+				64DC9E505AB0B4DDB2FEBE8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA54DA335FA223C5F839D8E /* Build configuration list for PBXNativeTarget "Pods-wupod-wupod-wupod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA669F4DC22ECD6F4AE51258 /* Debug */,
+				FAD8C763E79E51D178C7F25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B696B5084EF2F09F5AD35B0 /* Project object */;
+}
